@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+#main-div {
+    border: 0.1vh solid rgb(91, 168, 219);
+    border-radius: 0.4vh;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 1vh;
+    width: 40vw;
+    height: 12vh;
+}
+
+#credit-card-label {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+}
+
+#credit-card-title {
+    margin: 2vh;
+    font-size: 2vh;
+    color: rgb(92, 100, 98);
+}
+
+#credit-card-input {
+    margin: 2vh;
+    font-size: 2vh;
+    margin-top: 0.1vh;
+}
+
+#credit-card-input:focus {
+    outline: none;
+}
+
+.tooltip--active {
+    border: 1px solid red;
+}
